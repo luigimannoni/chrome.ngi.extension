@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "NGI Chrome Extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gaming.ngi.it/*", 
+        "http://gaming.ngi.it/*",
+        "https://netgamers.it/*",
+        "http://netgamers.it/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
